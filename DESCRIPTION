@@ -1,8 +1,10 @@
 Package: vizgraph
-Title: What the package does (one line)
-Version: 0.1
-Authors@R: "First Last <first.last@example.com> [aut, cre]"
-Description: What the package does (one paragraph)
-Depends: R (>= 3.1.2)
-License: What license is it under?
-LazyData: true
+Title: Self-contained Graphviz for Igraph Graphs
+Version: 1.0.0
+Author: Graphviz authors + Gabor Csardi
+Maintainer: Gabor Csardi <csardi.gabor@gmail.com>
+Description: A self-contained package to visualize igraph graphs
+    using the Graphviz tool.
+License: MIT + file LICENSE
+Imports:
+    igraph
